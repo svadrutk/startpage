@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>~</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<script src="scripts/transitions.js"></script>
+	</head>
+
+	<body>
+		<svg id="fader"></svg>
+        <script>fadeInPage();</script>
+
+		<!-- Welcome screen -->
+		<div id="main_window">
+			<div id="content">
+				<h1 class="title">welcome.</h1>
+				<div id="date">
+					<script type="text/javascript">
+						function doDate() {
+							var str = "";
+							var months = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+							var clock = new Date();
+							var now = new Date();
+
+							str += months[clock.getMonth()] + " " + now.getDate() + ", " + clock.getFullYear();
+							document.getElementById("date").innerHTML = str;
+						}
+						setInterval(doDate, 1000);
+						doDate();
+					</script>
+				</div>
+
+		<!-- Links -->
+				<nav>
+					<div id=links_container>
+						<ul>
+							<a class="subtitle">school</a>
+								<li><a class="hvr-underline-from-center" href="https://issaquah.instructure.com/">canvas</a></li>
+								<li><a class="hvr-underline-from-center" href="https://alhs.apexvs.com">apex</a></li>
+								<li><a class="hvr-underline-from-center" href="https://mail.google.com/">mail</a></li>
+						</ul>
+						<ul>
+							<a class="subtitle">オタク</a>
+								<li><a class="hvr-underline-from-center" href="https://www.animixplay.to/">anime</a></li>
+								<li><a class="hvr-underline-from-center" href="https://www.mangakakalot.com">manga</a></li>
+								<li><a class="hvr-underline-from-center" href="https://www.webtoon.xyz">webtoon</a></li>
+						</ul>
+						<ul>
+							<a class="subtitle">social</a>
+								<li><a class="hvr-underline-from-center" href="https://www.reddit.com">reddit</a></li>
+								<li><a class="hvr-underline-from-center" href="https://www.facebook.com">facebook</a></li>
+								<li><a class="hvr-underline-from-center" href="https://www.instagram.com">instagram</a></li>
+						</ul>
+						<ul>
+							<a class="subtitle">code</a>
+								<li><a class="hvr-underline-from-center" href="https://www.github.com">github</a></li>
+								<li><a class="hvr-underline-from-center" href="https://4chan-science.fandom.com/wiki/Computer_Science_and_Engineering">/sci/ wiki</a></li>
+								<li><a class="hvr-underline-from-center" href="https://stackoverflow.com/">stackover</a></li>
+						</ul>
+						<ul>
+							<a class="subtitle">other</a>
+								<li><a class="hvr-underline-from-center" href="https://open.spotify.com">spotify</a></li>
+								<li><a class="hvr-underline-from-center" href="https://www.youtube.com">youtube</a></li>
+								<li><a class="hvr-underline-from-center" href="https://4chan.org/g/">/g/</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<script src="scripts/darkmode.js"></script>
+	</body>
+</html>
