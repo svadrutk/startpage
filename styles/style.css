@@ -37,7 +37,7 @@
 }
 
 body {
-	background-image: 
+    background-color: #0f0f0f;
 	linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 	url('evening.jpg');
 background-repeat: no-repeat;
@@ -152,7 +152,7 @@ a {
 	color: var(--red);
 	font-weight: bold;
         background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3c478, #f3ec78);
+    background-image: linear-gradient(45deg, #ceb188, #c49ea0);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -164,11 +164,10 @@ a {
     font-family: "Motoya" !important;
     margin-bottom: 10px;
 	font-size: 40px;
-	font-style: italic;	
 	font-weight: bold;
 	text-align: center;
         background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #af4261, #f3ec78);
+    background-image: linear-gradient(45deg, #ceb188, #c49ea0);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
